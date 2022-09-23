@@ -1,24 +1,26 @@
 import { useState } from 'react';
 import './App.css';
+import ImgJuego from './components/piedraPapelTijera/ImgJuego';
 
 function App() {
   const [ganador, setGanador] = useState("");
   const [puntajes, setPuntajes] = useState([0, 0]);
+  const [playerOne, setValor] = useState(1);
 
   const LanzarDados = () => {
-    let valor = Math.floor(Math.random() * 3);
+    setValor(Math.floor(Math.random() * 3));
 
-    if (valor === 1) {
+    if (playerOne === 1) {
       setGanador("El Jugador es el Jugador 1!");
       setPuntajes([puntajes[0] = 1 + puntajes[0], puntajes[1]]);
-    } else if (valor === 2) {
+    } else if (playerOne === 2) {
       setGanador("El Jugador es el Jugador 2!");
       setPuntajes([puntajes[0], puntajes[1] = 1 + puntajes[1]]);
     } else {
       setGanador("Empate");
     }
     console.log(puntajes);
-    return (valor);
+    return (playerOne);
   }
 
   return (
@@ -27,7 +29,7 @@ function App() {
         <div className='Jugador'>
           <div className='uno'>
             <h1>Jugador 1</h1>
-            <img alt='imagen Piedra Papel Tijera' />
+            <ImgJuego imagen={playerOne}></ImgJuego>
             <label>Puntaje: {puntajes[0]}</label>
           </div>
           <div>
@@ -35,7 +37,6 @@ function App() {
           </div>
           <div className='dos'>
             <h1>Jugador 2</h1>
-            <img alt='imagen Piedra Papel Tijera' />
             <label>Puntaje:{puntajes[1]} </label>
           </div>
         </div>
