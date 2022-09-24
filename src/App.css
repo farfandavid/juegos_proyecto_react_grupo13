@@ -4,26 +4,3 @@
   justify-content: center;
   align-items: center;
 }
-
-.Contenedor {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-}
-
-.Jugador {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
-
-.Jugador>div {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 0 10px;
-}

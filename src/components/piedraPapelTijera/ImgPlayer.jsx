@@ -1,20 +1,23 @@
+import { useEffect, useState } from 'react';
 import './Image.css'
 import PapelImg from './papel.png';
 import PiedraImg from './piedra.png'
 import TijeraImg from './tijera.png';
 
-function ImgJuego({ imagen }) {
-
-  let valor = (a) => {
-    if (a === 1) {
+function ImgPlayer({ imagen }) {
+  // Val = Img
+  // 0 = Papel
+  // 1 = Piedra
+  // 2 = Tijeras
+  const valor = (a) => {
+    if (a === "0") {
       return PapelImg;
-    } else if (a === 2) {
+    } else if (a === "1") {
       return PiedraImg;
-    } else {
+    } else if (a === "2") {
       return TijeraImg;
     }
   }
-
   return (
     <>
       <img src={valor(imagen)} alt='Papel' className='ImgJuego' />
@@ -22,4 +25,4 @@ function ImgJuego({ imagen }) {
   );
 }
 
-export default ImgJuego;
+export default ImgPlayer;

@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contenedor {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.Jugador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.Estado {
+  width: 100px;
+  text-align: center;
+}
+
+.uno {
+  background-color: red;
+  color: white;
+}
+
+.dos {
+  background-color: blue;
+  color: white;
+}
+
+.Jugador>div {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
