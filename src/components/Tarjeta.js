@@ -1,7 +1,7 @@
-function Tarjeta() {
+function Tarjeta({item, id, handleClick}) {
     return(
         <div className="tarjeta">
-            <p>tarjeta</p>
+            <img className="imagenTarjeta" src ={item.img} alt="" />
         </div>
     )
 }

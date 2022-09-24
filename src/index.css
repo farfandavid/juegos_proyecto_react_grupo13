@@ -21,6 +21,7 @@ h1{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1em;
+   
     
    
 
@@ -31,5 +32,19 @@ h1{
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-
 }
+.imagenTarjeta{
+    max-width: 80%;
+    max-height: 80%;
+    transform: scale(0);
+    animation: 0.5s ocultarImagen linear;
+}
+@keyframes ocultarImagen{
+    0%, 70%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
