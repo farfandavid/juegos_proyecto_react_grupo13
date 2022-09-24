@@ -17,5 +17,19 @@ h1{
 .container{
     height: 700px;
     width: 700px;
-    background-color: rgb(79, 151, 214);
+    background-color:  rgb(253, 253, 253);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    
+   
+
+}
+.tarjeta{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
 }

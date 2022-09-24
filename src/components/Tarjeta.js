@@ -1,6 +1,8 @@
 function Tarjeta() {
     return(
-        <p>tarjeta</p>
+        <div className="tarjeta">
+            <p>tarjeta</p>
+        </div>
     )
 }
 export default Tarjeta;
