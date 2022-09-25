@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,37 +14,6 @@ h1{
     text-align: center;
     
 }
-.container{
-    height: 700px;
-    width: 700px;
-    background-color:  rgb(253, 253, 253);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1em;
-   
-    
-   
 
-}
-.tarjeta{
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-}
-.imagenTarjeta{
-    max-width: 80%;
-    max-height: 80%;
-    transform: scale(0);
-    animation: 0.5s ocultarImagen linear;
-}
-@keyframes ocultarImagen{
-    0%, 70%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(0);
-    }
-}
+
 

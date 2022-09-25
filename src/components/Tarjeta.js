@@ -1,7 +1,14 @@
-function Tarjeta({item, id, handleClick}) {
+import './stylesheets/tarjeta.css'
+
+
+function Tarjeta({elemento, id, handleClick}) {
+
+    const itemClass = elemento.stat ? " activo " + elemento.stat : ""
+
+    
     return(
-        <div className="tarjeta">
-            <img className="imagenTarjeta" src ={item.img} alt="" />
+        <div className={" tarjeta " + itemClass} onClick={() => handleClick(id)}>
+            <img className=" imagenTarjeta " src={elemento.img} alt="" />
         </div>
     )
 }
