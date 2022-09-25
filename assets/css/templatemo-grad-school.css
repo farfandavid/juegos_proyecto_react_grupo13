@@ -490,7 +490,7 @@ section.features .col-4 {
 /* Why Choosing Us */
 
 section.why-us {
-    background-image: url(../images/choosing-bg.jpg);
+    background-image: url(/public/image/fondo\ pagina.jpg);
     background-color: #172238;
     background-repeat: no-repeat;
     background-size: cover;
@@ -580,13 +580,13 @@ section.why-us {
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #fff;
+    color: rgb(255, 253, 253);
     margin-bottom: 30px;
 }
 
 #tabs p {
-    color: #fff;
-    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
     line-height: 28px;
 }
 
@@ -795,7 +795,7 @@ section.coming-soon form button {
 /* Courses*/
 
 section.courses {
-    background-image: url(/public/image/fondoPagina.jpg);
+    background-image: url(/public/image/fondo\ pagina.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #172238;
