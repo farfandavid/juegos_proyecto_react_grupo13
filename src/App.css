@@ -1,6 +1,9 @@
 .App {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
+  height: 99vh;
+  background-image: url('/public/image/fondo\ pagina.jpg');
+  background-color: black;
 }

@@ -1,0 +1,14 @@
+[
+    {
+        "link": "/PiedraPapelTijera",
+        "titulo": "Piedra,papel o tijera",
+        "imagen": "image/juego1.jpg",
+        "descripcion": "Los jugadores se deben poner uno frente al otro con una mano a la espalda y decir en alto: piedra, papel o tijera, justo al acabar la frase enseñarán las manos y verán quien gana. Si los dos jugadores sacan la misma figura hay empate, tablas, no gana nadie."
+    },
+    {
+        "link": "/JuegoMemoria",
+        "titulo": "Juego de Memoria",
+        "imagen": "image/juego2.png",
+        "descripcion": "Recuerda donde esta la pareja de cada imagen de este cuadro!"
+    }
+]

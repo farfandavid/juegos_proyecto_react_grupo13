@@ -1,0 +1,24 @@
+.container-tarjeta {
+    height: 700px;
+    width: 700px;
+    background-color: #152036;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+
+.tarjeta.activo {
+    transform: rotateY(0);
+}
+
+.tarjeta.activo img {
+    transform: scale(1);
+}
+
+.tarjeta.correcta {
+    background-color: rgb(24, 184, 9);
+}
+
+.tarjeta.incorrecta {
+    background-color: rgb(177, 3, 3);
+}

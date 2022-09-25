@@ -1,16 +1,12 @@
-.App {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-}
-
 .Contenedor {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   width: 50%;
+  background-color: #152036;
+  border-radius: 5%;
+  padding: 20px;
 }
 
 .Jugador {
@@ -23,16 +19,20 @@
 .Estado {
   width: 100px;
   text-align: center;
+  color: white;
+  font-weight: 900;
 }
 
 .uno {
   background-color: red;
   color: white;
+  font-weight: 900;
 }
 
 .dos {
   background-color: blue;
   color: white;
+  font-weight: 900;
 }
 
 .Jugador>div {
