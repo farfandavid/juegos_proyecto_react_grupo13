@@ -3,7 +3,6 @@ import ImgPlayer from '../components/piedraPapelTijera/ImgPlayer';
 import '../stylesheets/PiedraPapelTijeras.css';
 
 function PiedraPapelTijerasPage() {
-
   const [ganador, setGanador] = useState("");
   const [puntajes, setPuntajes] = useState([0, 0]);
   const [playerOne, setPlayerOne] = useState("0");
